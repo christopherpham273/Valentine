@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Will you be my Valentine?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div id="name-prompt">
+            <label for="username">Enter your name here sweetie:</label>
+            <input type="text" id="username" name="username" required>
+            <button id="submit-name">Send</button>
+            <img src="pic.gif" alt="HIHI" id="name-prompt-gif"/>
+        </div>
+        
+        <h1 id="valentine-question" style="display:none;">
+            Will you be my Valentine, <span id="name-placeholder"></span>?
+        </h1>
+
+        <div id="response-buttons" style="display:none;">
+            <button id="yes-button">Yes</button>
+            <button id="no-button">No</button>
+        </div>
+
+        <img id="heart-gif" src="pic.gif" alt="Animated heart GIF" style="display:none;"/>
+
+        <div id="ok-text" style="display:none;">Ok yay!!!</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
